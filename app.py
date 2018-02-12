@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify
-import random, urllib, sys
+import random
 from theoquotes import get_quotes_tq, get_authors_tq
 
 app = Flask(__name__)
@@ -9,7 +9,7 @@ authors = get_authors_tq()
 
 @app.route('/')
 def index():
-    return "Hello, World!"
+    return "<h1>TheoQuotesAPI:</h1><h2>An API for quoes by theologians.</h2>Try /random"
 
 """
 Returns all quotes
