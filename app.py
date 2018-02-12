@@ -32,7 +32,7 @@ Returns all quotes from a given author
 def get_quotes_from_author(author):
     res = []
     for quote in quotes:
-        if quote['name'] == author:
+        if quote['author'] == author:
             res.append(quote)
     return jsonify(res)
 
