@@ -1,13 +1,11 @@
 #!flask/bin/python
 from flask import Flask, jsonify
-from flask_cors import CORS
 from theoquotes import get_quotes_tq, get_authors_tq
 import random
 
 app = Flask(__name__)
 quotes = get_quotes_tq()
 authors = get_authors_tq()
-CORS(app, resources={r"/*":{"origins":"*"}})
 
 @app.route('/')
 def index():
