@@ -9,7 +9,10 @@ authors = get_authors_tq()
 
 @app.route('/')
 def index():
-    return "<h1>TheoQuotesAPI:</h1><h2>An API for quoes by theologians.</h2>Try /random"
+    return (
+        "<h1>TheoQuotesAPI:</h1><h2>An API for quoes by theologians.</h2>"
+        "Try /random<br /><a href="https://github.com/ilerio/TheoQuotesAPI">source code</a>"
+    )
 
 """
 Returns all quotes
