@@ -7,7 +7,7 @@ import random
 app = Flask(__name__)
 quotes = get_quotes_tq()
 authors = get_authors_tq()
-CORS(app)
+CORS(app, resources={r"/*":{"origins":"*"}})
 
 @app.route('/')
 def index():
@@ -28,7 +28,7 @@ def get_authors():
     return jsonify(authors)
 
 """
-Return all quotes from a given author
+Returns all quotes from a given author
 """
 @app.route('/quotes_from/<string:author>')
 def get_quotes_from_author(author):
@@ -39,7 +39,7 @@ def get_quotes_from_author(author):
     return jsonify(res)
 
 """
-Return a random quote
+Returns a random quote
 """
 @app.route('/random')
 def get_random_quote():
