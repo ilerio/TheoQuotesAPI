@@ -11,7 +11,7 @@ authors = get_authors_tq()
 def index():
     return (
         "<h1>TheoQuotesAPI:</h1><h2>An API for quoes by theologians.</h2>"
-        "Try /random<br /><a href="https://github.com/ilerio/TheoQuotesAPI">source code</a>"
+        "Try /random<br /><a href='https://github.com/ilerio/TheoQuotesAPI'>source code</a>"
     )
 
 """
