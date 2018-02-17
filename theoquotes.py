@@ -240,7 +240,7 @@ def get_quotes_tq():
         {
             "author":"James Montgomery Boice",
             "quote":(
-                "If (God) were obliged to be gracious, grace would no longer be grace "
+                "If God were obliged to be gracious, grace would no longer be grace "
                 "and salvation would be based on human merit rather than being sola gratia."
             )
         },
@@ -365,7 +365,7 @@ def get_quotes_tq():
         {
             "author":"Jeremiah Burroughs",
             "quote":(
-                "It (prayer) must be for the glory of God, for the good of ourselves, "
+                "It prayer must be for the glory of God, for the good of ourselves, "
                 "and for the good of our brethren. The glory of God, that should be "
                 "the chief matter we are to pray for."
             )
@@ -1158,9 +1158,10 @@ def get_quotes_tq():
         {
             "author":"J.I. Packer",
             "quote":(
-                "The battle for our Sundays is usually won or lost on the foregoing Saturday night, "
-                "when time should be set aside for self-examination, confession and prayer for the coming "
-                "day."
+                "The battle for our Sundays is usually won or lost on "
+                "the foregoing Saturday night, "
+                "when time should be set aside for self-examination, "
+                "confession and prayer for the coming day."
             )
         },
         {
@@ -1214,8 +1215,7 @@ def get_quotes_tq():
                 "pleasure in corporate efficiency or balanced budgets or welfare systems or new vaccines or "
                 "education or eloquence or artistic excellence or legal processes, when these things are "
                 "the treasure in which we hope, or the achievement in which we boast. Why? Because when we "
-                "put our hope in horses and legs, then the horses and legs get the glory, not"
-                "God."
+                "put our hope in horses and legs, then the horses and legs get the glory, not God."
             )
         },
         {
@@ -2021,8 +2021,7 @@ def get_quotes_tq():
             "author":"George Whitefield",
             "quote":(
                 "Man is nothing: he hath a free will to go to hell, but none to go to heaven, "
-                "till God worketh in him to will and to do his good pleasure "
-                "(George Whitefield to John Wesley)."
+                "till God worketh in him to will and to do his good pleasure."
             )
         }
     ]
