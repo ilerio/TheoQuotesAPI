@@ -28,8 +28,8 @@ Returns a random quote
 <br />
 
 ---
-powered by: [http://www.reformedtheology.ca/author_quotes.htm](http://www.reformedtheology.ca/author_quotes.htm)
+powered by: [reformedtheology.ca](http://www.reformedtheology.ca/author_quotes.htm)
 
-deployed at: [http://theoquotes.space](http://theoquotes.space)
+deployed at: [theoquotes.space](http://theoquotes.space)
 
-example usage: [codepen](https://codepen.io/ileri/full/JNKVOB)
+example usage: [codepen.io](https://codepen.io/ileri/full/JNKVOB)
