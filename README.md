@@ -29,7 +29,7 @@ Returns a random quote
 
 `/random_word`
 
-Returns a random quote
+Returns a random word
 
 <br />
 
