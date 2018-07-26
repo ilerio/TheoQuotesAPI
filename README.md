@@ -21,7 +21,13 @@ Returns all quotes from the given author
 
 <br />
 
-`/random`
+`/random_quote`
+
+Returns a random quote
+
+<br />
+
+`/random_word`
 
 Returns a random quote
 
