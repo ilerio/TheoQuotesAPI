@@ -1,5 +1,5 @@
 # TheoQuotesAPI
-### An API for quoes by theologians
+### An API for quotes by theologians
 
 <br />
 
