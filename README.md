@@ -37,5 +37,3 @@ Returns a random word
 powered by: [reformedtheology.ca](http://www.reformedtheology.ca/author_quotes.htm)
 
 deployed at: [ilerio.pythonanywhere.com](http://ilerio.pythonanywhere.com)
-
-example usage: [codepen.io](https://codepen.io/ileri/full/JNKVOB)
